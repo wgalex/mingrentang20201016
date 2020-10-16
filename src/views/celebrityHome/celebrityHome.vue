@@ -228,7 +228,7 @@ export default {
         //             that.getCategoryDan() //回调里调用获取单位荣誉的请求
         //             });
         //         },
-        //         onFail: function(err) { 
+        //         onFail: function(err) {
         //             // window.location.reload();
         //             alert(JSON.stringify(err))
         //             }

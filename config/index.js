@@ -8,14 +8,14 @@ module.exports = {
   dev: {
 
     // Paths
-    assetsSubDirectory: 'static', 
-    // assetsPublicPath: '/mrt/',
-    assetsPublicPath: '/',
+    assetsSubDirectory: 'static',
+    assetsPublicPath: '/mrt/',
+    // assetsPublicPath: '/',
     proxyTable: {
 			'/kukacms': {
         // target: 'http://116.62.60.13:8080/kukacms',
         // target: 'http://family.kukahome.com:5080/kukacms/',
-        // target: 'http://www.rc.kukahome.com:8880/kukacms/', 
+        // target: 'http://www.rc.kukahome.com:8880/kukacms/',
         // target: 'http://192.168.251.198:5090/kukacms',
         // target: 'http://192.168.251.198:8886/kukacms', //部署
         target: 'http://rc.kukahome.com:8880/kukacms',
@@ -24,7 +24,7 @@ module.exports = {
           '^/kukacms': ''
         }
       },
-    }, 
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -36,7 +36,7 @@ module.exports = {
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-    
+
     /**
      * Source Maps
      */

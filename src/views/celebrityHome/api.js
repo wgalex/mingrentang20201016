@@ -27,3 +27,12 @@ export function queryCarousel (queryData) {
     data: qs.stringify(queryData)
   })
 }
+//首页轮播图/
+export function selectDepartAndPersonByDepartCode (queryData) {
+  return fetch({
+    url: `/kukacms/visitor/a01/selectDepartAndPersonByDepartCode.htm`,
+    // url: `/kukacms/visitor/carousel/selectList.htm`,
+    method: 'post',
+    data: qs.stringify(queryData)
+  })
+}

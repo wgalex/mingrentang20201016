@@ -33,6 +33,7 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 
 Vue.use(Vant)
+import './assets/restVui.css';
 
 //引入vConsole
 import Vconsole from 'vconsole'
